@@ -21,6 +21,11 @@
 			.when('/service', {
 				templateUrl : 'partials/services.html',
 				controller  : 'serviceController'
+			})
+            // route for the contact us page
+			.when('/contact', {
+				templateUrl : 'partials/contactus.html',
+				controller  : 'contactusController'
 			});
 	
 	});
@@ -37,4 +42,7 @@
 
 	oodlesApp.controller('serviceController', function($scope) {
 		$scope.info = 'Service';
+	});
+    oodlesApp.controller('contactusController', function($scope) {
+		$scope.info = 'Contact Us';
 	});
