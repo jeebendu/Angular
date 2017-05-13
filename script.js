@@ -1,8 +1,8 @@
 // create the module and name it
-	var oodlesApp = angular.module('oodlesApp', ['ngRoute']);
+	var myApp = angular.module('myApp', ['ngRoute']);
 
 	// routes
-	oodlesApp.config(function($routeProvider) {
+	myApp.config(function($routeProvider) {
 		$routeProvider
 
 			// route for the home page
@@ -31,18 +31,18 @@
 	});
 
 	// create the controller and inject Angular's $scope
-	oodlesApp.controller('mainController', function($scope) {
+	myApp.controller('mainController', function($scope) {
 		// create a message to display in our view
-		$scope.info = 'Welcome to Oodles';
+		$scope.info = 'Welcome to Jeebendu Web solution';
 	});
 
-	oodlesApp.controller('aboutController', function($scope) {
-		$scope.info = 'About Oodles';
+	myApp.controller('aboutController', function($scope) {
+		$scope.info = 'About Us';
 	});
 
-	oodlesApp.controller('serviceController', function($scope) {
+	myApp.controller('serviceController', function($scope) {
 		$scope.info = 'Service';
 	});
-    oodlesApp.controller('contactusController', function($scope) {
+    myApp.controller('contactusController', function($scope) {
 		$scope.info = 'Contact Us';
 	});
