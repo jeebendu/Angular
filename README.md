@@ -1,3 +1,0 @@
-# Angular
-
-Angularjs demo Application
