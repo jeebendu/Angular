@@ -7,24 +7,24 @@
 
 			// route for the home page
 			.when('/', {
-				templateUrl : 'partials/home.html',
+				templateUrl : 'app/templates/home.html',
 				controller  : 'mainController'
 			})
 
 			// route for the about page
 			.when('/about', {
-				templateUrl : 'partials/about.html',
+				templateUrl : 'app/templates/about.html',
 				controller  : 'aboutController'
 			})
 
 			// route for the service page
 			.when('/service', {
-				templateUrl : 'partials/services.html',
+				templateUrl : 'app/templates/services.html',
 				controller  : 'serviceController'
 			})
             // route for the contact us page
 			.when('/contact', {
-				templateUrl : 'partials/contactus.html',
+				templateUrl : 'app/templates/contactus.html',
 				controller  : 'contactusController'
 			});
 	
