@@ -30,19 +30,3 @@
 	
 	});
 
-	// create the controller and inject Angular's $scope
-	myApp.controller('mainController', function($scope) {
-		// create a message to display in our view
-		$scope.info = 'Welcome to Jeebendu Web solution';
-	});
-
-	myApp.controller('aboutController', function($scope) {
-		$scope.info = 'About Us';
-	});
-
-	myApp.controller('serviceController', function($scope) {
-		$scope.info = 'Service';
-	});
-    myApp.controller('contactusController', function($scope) {
-		$scope.info = 'Contact Us';
-	});
